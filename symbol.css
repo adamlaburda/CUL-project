@@ -1,0 +1,31 @@
+.button{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(abstract-art-sample-by-thaneeya.jpg);
+    -webkit-text-stroke: 10px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    text-shadow: 10px 10px 10px #4e4e4e;
+    border-radius: 35px;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+    transform: scale(1);
+}
+.button:active {
+    transform: scale(1.5);
+}
+
+.button:hover {
+    transform: scale(1.2); /* Adjust the scale factor as desired */
+    opacity: 0.9;
+}
+@font-face {
+    font-family: 'Symbol';
+    src: url('Pacifico-Regular.ttf') format('truetype');
+    /* Add additional font weights or styles if available */
+  }
+.origin, .ideas, .artist, .title{
+    font-family: 'Symbol';
+}

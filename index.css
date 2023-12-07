@@ -1,0 +1,215 @@
+:root {
+    --back-heading: url(abstract-art-sample-by-thaneeya.jpg);
+}
+
+.container {
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px; /* adjust the initial gap as needed */
+    justify-content: center; /* center the elements horizontally */
+  }
+  
+  @media (min-width: 600px) {
+    .container {
+      /* Adjust the number of elements in the top row based on window size */
+      grid-template-columns: repeat(auto-fit, minmax(150px, calc((100% - 100px) / 6)));
+      
+    }
+    .container > :last-child {
+        grid-column: 1 / -1; /* span across all columns */
+      }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      /* Increase the gap for larger windows */
+      gap: 40px; /* adjust the gap for larger screens */
+    }
+  }
+  
+  
+
+
+
+
+
+.b1{
+    text-align: center;
+    background-color: transparent;
+    height: auto;
+    width: 200px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin: auto;
+    display: block;
+    -webkit-filter: drop-shadow(6px 6px 6px #4e4e4e);
+    filter: drop-shadow(6px 6px 6px #4e4e4e);  
+    transition: ease-in-out 0.2s;
+}
+.b1:active {
+    transform: scale(1.2);
+}
+.b1:hover {
+    transform: scale(1.2);
+    opacity: 0.9;
+    transform: rotate(0.01turn);
+}
+
+.b1 p {
+    vertical-align: middle;
+    margin: 0; /* Remove default margins */
+ }
+@font-face {
+    font-family: 'Impr';
+    src: url('Whisper-Regular.ttf') format('truetype');
+    /* Add additional font weights or styles if available */
+  }
+  @font-face {
+    font-family: 'Symbol';
+    src: url('Pacifico-Regular.ttf') format('truetype');
+    /* Add additional font weights or styles if available */
+  }
+  @font-face {
+    font-family: 'Pimpr';
+    src: url('AmaticSC-Regular.ttf') format('truetype');
+    /* Add additional font weights or styles if available */
+  }
+  @font-face {
+    font-family: 'Fau';
+    src: url('WaterBrush-Regular.ttf') format('truetype');
+    /* Add additional font weights or styles if available */
+  }
+  @font-face {
+    font-family: 'Expr';
+    src: url('NanumBrushScript-Regular.ttf') format('truetype');
+    /* Add additional font weights or styles if available */
+  }
+  @font-face {
+    font-family: 'Cub';
+    src: url('Geo-Regular.ttf') format('truetype');
+    /* Add additional font weights or styles if available */
+  }
+  @font-face {
+    font-family: 'Dada';
+    src: url('SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+    /* Add additional font weights or styles if available */
+  }
+  @font-face {
+    font-family: 'Surr';
+    src: url('ReenieBeanie-Regular.ttf') format('truetype');
+    /* Add additional font weights or styles if available */
+  }
+  @font-face {
+    font-family: 'Abexpr';
+    src: url('ComforterBrush-Regular.ttf') format('truetype');
+    /* Add additional font weights or styles if available */
+  }
+  @font-face {
+    font-family: 'Pop';
+    src: url('Magazine-Cutouts-Font.ttf') format('truetype');
+    /* Add additional font weights or styles if available */
+  }
+  /*IMPACT = font for minimalism*/
+  @font-face {
+    font-family: 'Concp';
+    src: url('Comfortaa-VariableFont_wght.ttf') format('truetype');
+    /* Add additional font weights or styles if available */
+    /*no back ; only outline*/
+  }
+  @font-face {
+    font-family: 'Neoexpr';
+    src: url('Neucha-Regular.ttf') format('truetype');
+    /* Add additional font weights or styles if available */
+  }
+
+.bt1{
+    text-align: center;
+    font-family: 'Impr';
+    font-size: 2em; /* Adjust as needed */
+    line-height: 1.2; /* Adjust as needed */
+}
+
+.bt2{
+    text-align: center;
+    font-family: 'Symbol';
+    font-size: 2em; /* Adjust as needed */
+    line-height: 1.2; /* Adjust as needed */
+}
+.bt3{
+    text-align: center;
+    font-family: 'Pimpr';
+    font-size: 1.5em; /* Adjust as needed */
+    line-height: 1.5; /* Adjust as needed */
+}
+.bt4{
+    text-align: center;
+    font-family: 'Expr';
+    font-size: 2em; /* Adjust as needed */
+    line-height: 1.2; /* Adjust as needed */
+}
+.bt5{
+    text-align: center;
+    font-family: 'Cub';
+    font-size: 2em; /* Adjust as needed */
+    line-height: 1.2; /* Adjust as needed */
+}
+.bt6{
+    text-align: center;
+    font-family: 'Dada';
+    font-size: 1.5em; /* Adjust as needed */
+    line-height: .9; /* Adjust as needed */
+}
+.bt7{
+    text-align: center;
+    font-family: 'Abexpr';
+    font-size: 2em; /* Adjust as needed */
+    line-height: 1.2; /* Adjust as needed */
+}
+.bt8{
+    text-align: center;
+    font-family: 'Pop';
+    font-size: 2em; /* Adjust as needed */
+    line-height: 1.2; /* Adjust as needed */
+}
+.bt9{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em; /* Adjust as needed */
+    line-height: 1.2; /* Adjust as needed */
+}
+.bt10{
+    text-align: center;
+    font-family: 'Concp';
+    font-size: 2em; /* Adjust as needed */
+    line-height: 1.2; /* Adjust as needed */
+}
+.bt11{
+    text-align: center;
+    font-family: 'Neoexpr';
+    font-size: 2em; /* Adjust as needed */
+    line-height: 1.2; /* Adjust as needed */
+}
+
+
+.heading{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: var(--back-heading);
+    -webkit-text-stroke: 10px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 3px;
+    text-shadow: 10px 10px 10px #4e4e4e;
+    border-radius: 35px;  
+    -webkit-filter: drop-shadow(6px 6px 6px #4e4e4e);
+    filter: drop-shadow(6px 6px 6px #4e4e4e);
+}
+
